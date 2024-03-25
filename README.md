@@ -68,7 +68,7 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_email"></a> [email](#input\_email) | Email address to be notified in case of Lambda loading error. Example: paulo@gmail.com | `string` | n/a | yes |
 | <a name="input_region"></a> [region](#input\_region) | Region that will contain the resources. Example: 'us-east-1' | `string` | n/a | yes |
-| <a name="input_tag_environments"></a> [tag\_environments](#input\_tag\_environments) | List of permitted environments for the Lambda. The Lambda will delete any EBS not belonging to these environments. Example: ['Dev', 'Staging', 'Prod'] | `list(string)` | n/a | yes |
+| <a name="input_tag_environments"></a> [tag\_environments](#input\_tag\_environments) | List of permitted environments for the Lambda. The Lambda will delete any EBS not belonging to these environments. Example: ["Dev", "Staging", "Prod", "QA"] | `list(string)` | n/a | yes |
 | <a name="input_trigger_cron"></a> [trigger\_cron](#input\_trigger\_cron) | Time to trigger the Lambda by EventBridge. Example: cron(36 16 ? * * *) | `string` | n/a | yes |
 
 ## Outputs
